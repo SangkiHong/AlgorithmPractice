@@ -5,8 +5,8 @@ using namespace std;
 
 /*
 	Baekjoon Algorithm 1712번 문제
-	A, B, C가 주어졌을 때, 손익분기점을 구하는 프로그램을 작성하시오.
 	문제 링크 : https://www.acmicpc.net/problem/1712
+	* 문제: A, B, C가 주어졌을 때, 손익분기점을 구하는 프로그램을 작성하시오.
 */
 
 const int LIMIT_PRICE = 2100000000;
