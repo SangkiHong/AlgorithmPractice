@@ -13,8 +13,8 @@ using namespace std;
 	* 출력: 첫째 줄에 문제의 정답을 출력한다. 절대/상대 오차는 십억분의 일까지 허용한다.
 */
 
-double Dist(double A1, double B1, double A2, double B2) {
-	return sqrt((A1 - A2) * (A1 - A2) + (B1 - B2) * (B1 - B2));
+double Dist(double Ax, double Ay, double Bx, double By) {
+	return sqrt((Ax - Bx) * (Ax - Bx) + (Ay - By) * (Ay - By));
 }
 
 struct Vector2
