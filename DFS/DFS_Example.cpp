@@ -11,7 +11,7 @@ int main()
         nodes[i].rightNode = NULL;
     }
     
-    //Example Graph
+    //Example Node Link
     // [0]
     //  |  \
     // [1]-[2]-[3]-[8]
